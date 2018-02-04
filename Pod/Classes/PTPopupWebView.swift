@@ -469,7 +469,7 @@ open class PTPopupWebView : UIView {
     }
     
     /// Close popup view
-    open func close() {
+    @objc open func close() {
         if let delegate = delegate {
             // if delegate != nil (ex. when use PTPopupWebViewContoller)
             delegate.close()
