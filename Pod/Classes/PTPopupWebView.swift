@@ -481,7 +481,7 @@ open class PTPopupWebView : UIView {
     }
     
     
-    internal func buttonTapped (_ sender: AnyObject) {
+    @objc internal func buttonTapped (_ sender: AnyObject) {
         if let button = sender as? UIButton, let index = buttons.index(of: button) {
             if index < buttonSettings.count {
                 let buttonSetting = buttonSettings[index]
