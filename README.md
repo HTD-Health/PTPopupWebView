@@ -8,7 +8,7 @@ PTPopupWebView is a simple and useful WebView for iOS, which can be popup and ha
 ![Pop](https://raw.githubusercontent.com/pjocprac/PTPopupWebView/master/Images/style_pop.gif "Pop")
 
 ## Requirement
-iOS 8.0
+iOS 10.0
 
 ## Installation
 
